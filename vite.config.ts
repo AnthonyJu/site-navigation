@@ -103,8 +103,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg', 'safari-pinned-tab.svg'],
       manifest: {
-        name: 'JuPeng\'s Blog',
-        short_name: 'JuPeng\'s Blog',
+        name: 'JuPeng\'s Mini Site',
+        short_name: 'JuPeng\'s Mini Site',
         theme_color: '#ffffff',
         icons: [
           {
