@@ -5,7 +5,7 @@
     <!-- main -->
     <div flex-col items-center justify-between>
       <img
-        class="min-w-180px w-15% animate-tada cursor-pointer rounded-50%"
+        class="min-w-200px w-15% animate-tada cursor-pointer rounded-50%"
         hover="animate-spin"
         src="@/assets/avatar.png"
       >
@@ -27,13 +27,21 @@
       </p>
     </div>
 
-    <!-- ICP -->
-    <a
-      href="https://beian.miit.gov.cn/"
-      target="_blank" rel="nofollow" class="mb-20px text-14px text-slate"
-    >
-      鲁ICP备2023018296号
-    </a>
+    <!-- 备案 -->
+    <div class="mb-20px flex-center flex-wrap gap-1 text-14px text-slate">
+      <a href="https://beian.miit.gov.cn/" target="_blank" rel="nofollow">
+        鲁ICP备2023018296号
+      </a>
+      <a
+        href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=37020302372175"
+        target="_blank"
+        rel="nofollow"
+        class="flex-center"
+      >
+        <img src="@/assets/recordcode.png" class="relative bottom-2px mr-1 h-16px w-16px">
+        <p>鲁公网安备 37020302372175号</p>
+      </a>
+    </div>
   </div>
 </template>
 

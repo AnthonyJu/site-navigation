@@ -1,5 +1,10 @@
 declare interface Window {
   // extend the window
+  mySiteList:{
+    name: string
+    url: string
+    icon: string
+  }[]
 }
 
 // declare module 'element-plus/dist/locale/zh-cn.mjs'
