@@ -16,6 +16,7 @@
           :key="site.name"
           :href="site.url"
           :title="site.name"
+          target="_blank"
           class="flex-center text-18px text-#3f9dff transition-all duration-200"
           hover="text-#c784ed scale-110 dark:text-#57f0e6"
         >
