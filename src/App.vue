@@ -3,6 +3,8 @@
 </template>
 
 <script setup lang="ts">
+const isDark = useDark()
+
 // https://github.com/vueuse/head
 useHead({
   title: 'Ju Peng\'s Mini Site',
