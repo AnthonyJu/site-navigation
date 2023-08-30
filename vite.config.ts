@@ -29,12 +29,6 @@ export default defineConfig({
     },
   },
 
-  build: {
-    rollupOptions: {
-      external: ['workbox-window']
-    }
-  },
-
   plugins: [
     // https://github.com/vitejs/vite-plugin-vue/tree/main/packages/plugin-vue#readme
     Vue({
@@ -150,10 +144,5 @@ export default defineConfig({
     onFinished() {
       generateSitemap()
     },
-  },
-
-  ssr: {
-    // TODO: workaround until they support native ESM
-    noExternal: ['workbox-window', /vue-i18n/],
   },
 })
